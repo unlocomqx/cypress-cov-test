@@ -1,0 +1,15 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:coverage": "npx cypress run --env coverage=true"
+  },
+  "private": true,
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.14.0",
+    "cypress": "^14.3.0"
+  }
+}
