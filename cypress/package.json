@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress run",
+    "test:open": "cypress open",
     "test:coverage": "npx cypress run --env coverage=true"
   },
   "private": true,
